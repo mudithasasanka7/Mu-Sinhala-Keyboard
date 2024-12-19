@@ -5,7 +5,7 @@
     android:keyHeight="60dp"
     android:horizontalGap="0dp"
     android:verticalGap="0dp">
-    <!-- Row 1 -->
+    <!-- Row 1: Vowels -->
     <Row>
         <Key android:codes="3523" android:keyLabel="අ"/>
         <Key android:codes="3508" android:keyLabel="ආ"/>
@@ -16,10 +16,10 @@
         <Key android:codes="3524" android:keyLabel="උ"/>
         <Key android:codes="3525" android:keyLabel="ඌ"/>
         <Key android:codes="3526" android:keyLabel="ඍ"/>
-        <Key android:codes="3527" android:keyLabel="ඎ"/>
+        <Key android:codes="-5" android:keyLabel="⌫" android:isRepeatable="true"/>
     </Row>
 
-    <!-- Row 2 -->
+    <!-- Row 2: Vowel Symbols and Consonants -->
     <Row>
         <Key android:codes="3529" android:keyLabel="එ"/>
         <Key android:codes="3530" android:keyLabel="ඒ"/>
@@ -33,7 +33,7 @@
         <Key android:codes="3510" android:keyLabel="ඩ"/>
     </Row>
 
-    <!-- Row 3 -->
+    <!-- Row 3: Consonants -->
     <Row>
         <Key android:codes="3511" android:keyLabel="ණ"/>
         <Key android:codes="3514" android:keyLabel="ත"/>
@@ -47,7 +47,7 @@
         <Key android:codes="3539" android:keyLabel="ල"/>
     </Row>
 
-    <!-- Row 4 -->
+    <!-- Row 4: Consonants and Special Keys -->
     <Row>
         <Key android:codes="3540" android:keyLabel="ව"/>
         <Key android:codes="3542" android:keyLabel="ස"/>
@@ -55,7 +55,6 @@
         <Key android:codes="3545" android:keyLabel="ළ"/>
         <Key android:codes="3546" android:keyLabel="ෆ"/>
         <Key android:codes="32" android:keyLabel="␣" android:keyWidth="20%p"/>
-        <Key android:codes="-5" android:keyLabel="⌫" android:isRepeatable="true" android:keyWidth="20%p"/>
         <Key android:codes="10" android:keyLabel="⏎" android:keyWidth="20%p"/>
     </Row>
 </Keyboard>
